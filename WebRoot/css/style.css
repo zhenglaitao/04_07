@@ -395,7 +395,6 @@ left: calc(50% - 110px);
 }
 
 .single-feature .feature-image {
-
 }
 
 
@@ -797,8 +796,8 @@ margin-right: 8px;
 
 .client-photos .photo-hold {
 	display:inline-block;
-	width: 100px;
-	height: 100px;
+	width: 200px;
+	height: 200px;
 	padding: 10px;
 	margin-right: 20px;
 	border: 1px solid;
@@ -814,6 +813,8 @@ margin-right: 8px;
 
 
 .client-photos img {
+	height:180px;
+	width:140px;
 	opacity: .4;
 }
 

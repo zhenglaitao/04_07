@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
-	<title>Egret - HTML5 landing page</title>
+	<title>老婆花--一周年--节日快乐--</title>
 	
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,14 +33,54 @@
 		<script src="http://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="http://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif] -->
-	
+		<script type="text/javascript">
+	function appendMusic() {
+			var ua = navigator.userAgent.toLowerCase();
+			if (ua.match(/msie ([\d.]+)/)) {
+				$('body')
+						.append(
+								'<object id="music" classid="clsid:22D6F312-B0F6-11D0-94AB-0080C74C7E95"><param name="AutoStart" value="1" /><param name="Src" value="iloveyou.mp3
+
+" /></object>');
+			} else if (ua.match(/firefox\/([\d.]+)/)) {
+				$('body')
+						.append(
+								'<embed id="music" src="iloveyou.mp3
+
+" type="audio/mp3" hidden="true" loop="false" mastersound></embed>');
+			} else if (ua.match(/chrome\/([\d.]+)/)) {
+				$('body')
+						.append(
+								'<audio  id="music" src="iloveyou.mp3 
+
+" type="audio/mp3" autoplay=”autoplay” hidden="true"></audio>');
+			} else if (ua.match(/opera.([\d.]+)/)) {
+				$('body')
+						.append(
+								'<embed id="music" src="iloveyou.mp3 
+
+" hidden="true" loop="false"><noembed><bgsounds src="/sounds/alert/1.mp3"></noembed>');
+			} else if (ua.match(/version\/([\d.]+).*safari/)) {
+				$('body')
+						.append(
+								'<audio id="music" src="iloveyou.mp3 
+
+" type="audio/mp3" autoplay="autoplay" hidden="true"></audio>');
+			} else {
+				$('body')
+						.append(
+								'<embed music src="iloveyou.mp3 
+
+" type="audio/mp3" hidden="true" loop="false" mastersound></embed>');
+			}
+		}
+
+	</script>
 	
 </head>
-<body>
+<body onload="appendMusic()">
 	<!-- music  start-->
-	<!--  <embed title="music" src="music.m3u" loop="true" width="100%" height="5%" autostart="true">
 	
-	-->
 	<!-- music  end-->
 	<!--=== Preloader section starts ===-->
 	<section id="preloader">
@@ -63,19 +103,19 @@
 									<span class="icon-bar"></span>
 							</button>
 							<!--=== Site Name ===-->
-							<a class="site-name navbar-brand" href="#"><span>E</span>gret</a>
+							<a class="site-name navbar-brand" href="#"><span>姬</span>紫花</a>
 						</div>
 						
 						<!-- Main Navigation menu Starts -->
 						<div class="collapse navbar-collapse navbar-responsive-collapse">
 							<ul class="nav navbar-nav navbar-right">
-								<li class="current"><a href="#header">Home</a></li>
-								<li><a href="#section-feature">Features</a></li>
-								<li><a href="#section-services">Services</a></li>
-								<li><a href="#step-1">Work Flow</a></li>
-								<li><a href="#section-screenshots">Screenshots</a></li>
-								<li><a href="#section-pricing">Pricing</a></li>
-								<li><a href="#section-download">Download</a></li>
+								<li class="current"><a href="#header">相遇</a></li>
+								<li><a href="#section-feature">相知</a></li>
+								<li><a href="#section-services">我要说</a></li>
+								<li><a href="#step-1">不平凡的爱</a></li>
+								<li><a href="#section-screenshots">女神</a></li>
+								<li><a href="#section-pricing">相守</a></li>
+								<li><a href="#section-download">I LOVE YOU</a></li>
 							</ul>
 						</div>
 						<!-- Main Navigation menu ends-->
@@ -91,20 +131,20 @@
 			<div class="section-overlay"></div>
 			<div class="container home">
 				<div class="row">
-					<h1 class="well-come">Fly like Egret</h1>
+					<h1 class="well-come">Call Me Right</h1>
 					
 					<div class="col-md-8 col-md-offset-2">
-						<p class="intro-message">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet qui dolorem</p>
+						<p class="intro-message">于千万人之中遇见你所要遇见的人，于千万年之中，时间的无涯的荒野里，没有早一步，也没有晚一步，刚巧赶上了，没有别的话可说，惟有轻轻地问一声：“噢，你也在这里？”  爱情在动静之间：缘分在聚散之间。如果说爱情是源源不断的小溪，缘分则是偶尔投到溪水中荡起阵阵涟漪的石子。如果说爱情是一道美丽的风景。缘分则是偶尔光顾的浪迹四方的旅人，有缘人自会发现，无缘者任他寻千百度也会错过</p>
 						
 						<div class="home-buttons">
 							<a href="#" class="fancy-button button-line button-white vertical">
-								Learn more
+								蛋蛋
 								<span class="icon">
 									<i class="fa fa-gear"></i>
 								</span>
 							</a>
 							<a href="#" class="fancy-button button-line button-white zoom">
-								Download now
+								球球
 								<span class="icon">
 									<i class="fa fa-leaf"></i>
 								</span>
@@ -127,132 +167,76 @@
 						<ul id="card-ul" class="features-hold baraja-container">
 						
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="Card style">
-								<img src="images/5.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">Card style</h4>
+							<li class="single-feature" title="咱们毕业了">
+								<img src="images/88.jpg" style="height: 375px;" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut.
+								一起毕业了。。。
 								</p>
 								
-									<a href="#" class="fancy-button button-line btn-col small vertical">
-										Details
-										<span class="icon">
-											<i class="fa fa-leaf"></i>
-										</span>
-									</a>
 								
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="50+ SVG Icon included">
-								<img src="images/2.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">50+ SVG Icon included</h4>
+							<li class="single-feature" title="好温馨">
+								<img src="images/22.jpg" style="height: 375px;" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								真的有感动，大导演
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="MailChimp Ready">
-								<img src="images/3.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">MailChimp Ready</h4>
+							<li class="single-feature" title="爱的故事">
+								<img src="images/33xx.jpg" style="height: 330px;" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								小船上的爱情，新版白蛇传、、、、
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="4 home style">
-								<img src="images/4.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">4 home style</h4>
+							<li class="single-feature" title="花姐 style">
+								<img src="images/44.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								要不要那么美，傻妞
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="Parallax Backgrounds">
-								<img src="images/5.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">Parallax Backgrounds</h4>
+							<li class="single-feature" title="电影院的座椅">
+								<img src="images/555xx.jpg" style="height: 330px;" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								一起看电影吧，约不~~~
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="Ajax contact form">
-								<img src="images/6.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">Ajax contact form</h4>
+							<li class="single-feature" title="再不疯狂就老了">
+								<img src="images/666xx.jpg" style="height: 330px;" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								二逼青年欢乐多
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="unlimited Google fonts">
-								<img src="images/7.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">unlimited Google fonts</h4>
+							<li class="single-feature" title="爱情男女">
+								<img src="images/77.jpg" style="height: 370px;" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								让我为你遮风挡雨吧
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 							
 							<!-- Single Feature Starts -->
-							<li class="single-feature" title="Feature heading">
-								<img src="images/8.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
-								<h4 class="feature-title color-scheme">Feature heading</h4>
+							<li class="single-feature" title="人生若如初见">
+								<img src="images/11.jpg" alt="" class="feature-image" /><!-- Feature Icon -->
 								<p class="feature-text">
-									Curabitur posuere feugiat ipsum, sed elementum tortor maximus ut
+								中牟的草莓依然鲜艳，还记得吗
 								</p>
-								<a href="#" class="fancy-button button-line btn-col small zoom">
-									Details
-									<span class="icon">
-										<i class="fa fa-leaf"></i>
-									</span>
-								</a>
 							</li>
 							<!-- Single Feature Ends -->
 						</ul>
@@ -294,17 +278,19 @@
 			<div class="row">
 			
 				<div class="col-md-10 col-md-offset-1 center section-title">
-					<h3>鸡汤 来了</h3>
+					<h3>Wanna to say</h3>
 				</div>
 			
 				<!-- Single Service Starts -->
 				<div class="col-md-6 col-sm-6 service animated" data-animation="fadeInLeft" data-animation-delay="700">
 					<span class="service-icon center"><i class="icon icon-basic-book-pencil fa-3x"></i></span>
 					<div class="service-desc">
-						<h4 class="service-title color-scheme">花：怎么喜欢上我的？</h4>
+						<h4 class="service-title color-scheme">你问我是怎么喜欢上你的？</h4>
 						<p class="service-description justify">
-							初次见面，你的笑容(外在);慢慢接触，你的温柔(内在)
-							你的眼神充满美丽 带走我的心跳 ，你的温柔如此靠近 带走我的心跳
+							初次见面，你的笑容，如此美好<br>
+							慢慢接触，你的温柔，深深折服<br>
+							你的眼神充满美丽 带走我的心跳 <br>
+							你的温柔如此靠近 带走我的心跳
 						</p>
 					</div>
 				</div>
@@ -314,10 +300,11 @@
 				<div class="col-md-6 col-sm-6 service animated" data-animation="fadeInUp" data-animation-delay="700">
 					<span class="service-icon center"><i class="icon icon-basic-paperplane fa-3x"></i></span>
 					<div class="service-desc">
-						<h4 class="service-title color-scheme">花：我漂亮吗？</h4>
+						<h4 class="service-title color-scheme">你问我你漂亮吗？</h4>
 						<p class="service-description justify">
 							张爱玲说过：一个男人选择一个女人，绝对不是因为她内在有多美，而是因为这个女人的外在形象带给他美好的感觉。
-							我想我也是的！PS(比上不足，比下有余，不要打我。独一无二的你，是我的菜)
+							我想我也是的！<br>
+							Ps:爱情这么奇妙，不要乱猜，你是我的菜！
 						</p>
 					</div>
 				</div>
@@ -327,10 +314,11 @@
 				<div class="col-md-6 col-sm-6 service animated" data-animation="fadeInRight" data-animation-delay="700">
 					<span class="service-icon center"><i class="icon icon-basic-accelerator fa-3x"></i></span>
 					<div class="service-desc">
-						<h4 class="service-title color-scheme">花：你爱我吗？</h4>
+						<h4 class="service-title color-scheme">你问我爱你吗？</h4>
 						<p class="service-description justify">
-							爱情是盲目的，没有什么值不值得的问题。当你爱上一个人的时候，你还会理性的思考吗？(我已经不能好好思考了)
-							只怕我自己会爱上你，不敢让自己靠的太近;怕我没什么能够给你，爱你也需要很大的勇气
+							爱情是盲目的，没有什么值不值得的问题。当你爱上一个人的时候，你还会理性的思考吗？<br>
+							Ps:最近智商捉急，已经不是一个合格的猿了！<br>
+							只怕我自己会爱上你，不敢让自己靠的太近<br>怕我没什么能够给你，爱你也需要很大的勇气
 						</p>
 					</div>
 				</div>
@@ -340,10 +328,10 @@
 				<div class="col-md-6 col-sm-6 service animated" data-animation="fadeInUp" data-animation-delay="700">
 					<span class="service-icon center"><i class="icon icon-basic-lightbulb fa-3x"></i></span>
 					<div class="service-desc">
-						<h4 class="service-title color-scheme">花：想不想结婚啊？</h4>
+						<h4 class="service-title color-scheme">想不想结婚啊？</h4>
 						<p class="service-description justify">
-							想！不想耍流氓。
-							等----你----爱----我  哪怕只有一次也就足够  等----你----爱----我  也许只有一次才能永久 
+							想滴很那！不想被人喊流氓~~~~~~<br>
+							等----你----爱----我<br>哪怕只有一次也就足够<br>等----你----爱----我<br>也许只有一次才能永久 
 						</p>
 					</div>
 				</div>
@@ -366,19 +354,21 @@
 					</div>
 					
 					<div class="col-md-10 step-details">
-							<h3 class="step-title color-scheme">Work flow title here</h3>
-							<p class="step-description">Cillum laboris <strong>consequat</strong>, qui elit retro next level 
-							skateboard freegan hella. Cillum laboris consequat qui elit retro next level 
-							skateboard freegan hella. Cillum laboris consequat skateboard freegan hella</p>
+							<h3 class="step-title color-scheme">那日子 如此美好</h3>
+							<p class="step-description">那时候的距离- <strong>郑州<--->开封</strong><br>
+							科大，河大，小石佛，我们走过的路，去过的地方，还历历在目<br>
+							争吵过，迷茫过，甜蜜过，依依不舍过。。。<br>
+							每每想起，嘴角上扬----<br>
+							</p>
 							
 							<ul class="sub-steps"> <!-- Sub steps here -->
 								<li>
 									<span class="icon fa fa-comments color-scheme"></span>
-									<span class="sub-text">skateboard freegan hella. Cillum laboris consequat qui elit</span>
+									<span class="sub-text">那些年 吃过的饭</span>
 								</li>
 								<li>
 									<span class="icon fa fa-pencil-square-o color-scheme"></span>
-									<span class="sub-text">Documenting collected data</span>
+									<span class="sub-text">唱过的歌 看过的电影</span>
 								</li>
 							</ul>
 					</div> <!-- End step-details -->
@@ -405,19 +395,22 @@
 					</div>
 					
 					<div class="col-md-10 step-details">
-							<h3 class="step-title color-scheme">Work flow title here</h3>
-							<p class="step-description">Cillum laboris <strong>consequat</strong>, qui elit retro next level 
-							skateboard freegan hella. Cillum laboris consequat qui elit retro next level 
-							skateboard freegan hella. Cillum laboris consequat skateboard freegan hella</p>
+							<h3 class="step-title color-scheme">那日子 好久不见</h3>
+							<p class="step-description">这时候的距离- <strong>上海<--->甘肃</strong><br> 
+							最高兴的时候就是去看你的时候<br>
+							最不爽的时候就是要离开的时候<br>
+							我想你也是<br>
+							喜怒哀乐有你分享，心中那光明不曾熄灭
+							</p>
 							
 							<ul class="sub-steps"> <!-- Sub steps here -->
 								<li>
 									<span class="icon fa fa-comments color-scheme"></span>
-									<span class="sub-text">skateboard freegan hella. Cillum laboris consequat qui elit</span>
+									<span class="sub-text">革命尚未成功、、、、、、、、、、、、</span>
 								</li>
 								<li>
 									<span class="icon fa fa-pencil-square-o color-scheme"></span>
-									<span class="sub-text">Documenting collected data</span>
+									<span class="sub-text">你我仍需努力、、、、、、、、、、、、</span>
 								</li>
 								
 							</ul>
@@ -438,10 +431,10 @@
 		<div class="container big-video center animated" data-animation="fadeInLeft" data-animation-delay="700">
 			<div class="row">
 				<div class="col-md-12 section-title">
-					<h3>Describe with a video</h3>
+					<h3>Forward</h3>
 				</div>
 				<div class="col-md-10 col-md-offset-1 video-content">
-					<iframe src="http://player.vimeo.com/video/75317749?title=0&amp;byline=0&amp;portrait=0" width="400" height="240"></iframe>
+					<iframe src="http://player.video.qiyi.com/2db1712e34eadaa3584e7453ecf598f9/0/222/v_19rrnwbe28.swf-albumId=341049500-tvId=341049500-isPurchase=0-cnId=5" width="730" height="450"></iframe>
 				</div>
 			</div>
 		</div>
@@ -453,15 +446,15 @@
 		<div class="container screenshots animated" data-animation="fadeInUp" data-animation-delay="1000">
 			<div class="row porfolio-container">
 				<div class="col-md-10 col-md-offset-1 center section-title">
-					<h3>Our Latest Projects</h3>
+					<h3>青春纪念册</h3>
 				</div>
 				<!-- Single screenshot starts -->
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="screenshot">
 						<div class="photo-box">
-							<img src="images/7.jpg" alt="" />
+							<img src="images/1111.jpg" alt="" />
 							<div class="photo-overlay">
-								<h4>Wordpress theme</h4>
+								<h4>你是老天派来迷惑我的么</h4>
 							</div>
 							<span class="photo-zoom">
 								<a href="single-project.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
@@ -475,26 +468,9 @@
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="screenshot">
 						<div class="photo-box">
-							<img src="images/2.jpg" alt="" />
+							<img src="images/2222.jpg" alt="" />
 							<div class="photo-overlay">
-								<h4>User Interface design</h4>
-							</div>
-							<span class="photo-zoom">
-								<a href="single-project-2.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
-							</span>
-						</div>
-						
-					</div>
-				</div>
-				<!-- Single screenshot ends -->
-				
-				<!-- Single screenshot starts -->
-				<div class="col-md-4 col-sm-4 col-xs-6">
-					<div class="screenshot">
-						<div class="photo-box">
-							<img src="images/3.jpg" alt="" />
-							<div class="photo-overlay">
-								<h4>PSD template design</h4>
+								<h4>这是要打人的节奏啊</h4>
 							</div>
 							<span class="photo-zoom">
 								<a href="single-project.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
@@ -509,26 +485,9 @@
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="screenshot">
 						<div class="photo-box">
-							<img src="images/4.jpg" alt="" />
+							<img src="images/3333.jpg" alt="" />
 							<div class="photo-overlay">
-								<h4>User Experience design</h4>
-							</div>
-							<span class="photo-zoom">
-								<a href="single-project-2.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
-							</span>
-						</div>
-						
-					</div>
-				</div>
-				<!-- Single screenshot ends -->
-				
-				<!-- Single screenshot starts -->
-				<div class="col-md-4 col-sm-4 col-xs-6">
-					<div class="screenshot">
-						<div class="photo-box">
-							<img src="images/5.jpg" alt="" />
-							<div class="photo-overlay">
-								<h4>Page builder plugin</h4>
+								<h4>别告诉我真的不冷，抱抱</h4>
 							</div>
 							<span class="photo-zoom">
 								<a href="single-project.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
@@ -543,12 +502,46 @@
 				<div class="col-md-4 col-sm-4 col-xs-6">
 					<div class="screenshot">
 						<div class="photo-box">
-							<img src="images/6.jpg" alt="" />
+							<img src="images/4444.jpg" alt="" />
 							<div class="photo-overlay">
-								<h4>Corporate website</h4>
+								<h4>哇，小护士，色色~</h4>
 							</div>
 							<span class="photo-zoom">
-								<a href="single-project-2.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
+								<a href="single-project.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				<!-- Single screenshot ends -->
+				
+				<!-- Single screenshot starts -->
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<div class="screenshot">
+						<div class="photo-box">
+							<img src="images/5555.jpg" alt="" />
+							<div class="photo-overlay">
+								<h4>我是采姑娘的小蘑菇</h4>
+							</div>
+							<span class="photo-zoom">
+								<a href="single-project.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
+							</span>
+						</div>
+						
+					</div>
+				</div>
+				<!-- Single screenshot ends -->
+				
+				<!-- Single screenshot starts -->
+				<div class="col-md-4 col-sm-4 col-xs-6">
+					<div class="screenshot">
+						<div class="photo-box">
+							<img src="images/66666.jpg" alt="" />
+							<div class="photo-overlay">
+								<h4>杨柳细腰，俩大眼，双眼皮</h4>
+							</div>
+							<span class="photo-zoom">
+								<a href="single-project.html" class="view-project"><i class="fa fa-search-plus fa-2x"></i></a>
 							</span>
 						</div>
 						
@@ -586,56 +579,56 @@
 						<!-- Single Testimonial Starts -->
 						<div class="testimonial">
 							<p class="comment">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sem ante. Nullam quis risus eu 
-								purus commodo dignissim. Donec iaculis ac ex vel posuere. Sed posuere, elit vitae mattis condimentum, 
-								quam urna fringilla magna
+								曾经的他 由内而外帅气的一塌糊涂<br>
+								某人 爱的不行不行的<br>
+								帅气 and 肌肉
 							</p>
 							
-							<h5 class="happy-client">Jhon Doe</h5>
-							<span class="client-info">Executive at CDF Corp.</span>
+							<h5 class="happy-client">晓明哥</h5>
+							<span class="client-info">你的一号男神</span>
 						</div>
 						<!-- Single Testimonial Ends -->
 						
 						<!-- Single Testimonial Starts -->
 						<div class="testimonial">
 							<p class="comment">
-								Dolor sit amet, consectetur adipiscing elit. Nullam eu sem ante. Nullam quis risus eu 
-								purus commodo dignissim. Donec iaculis ac ex vel posuere. Sed posuere, elit vitae mattis condimentum, 
-								quam urna fringilla magna
+								阳光 可爱 帅气 俏皮 潮的更是一塌糊涂<br>
+								哎 留着是个祸害啊啊啊啊啊<br>
+								型男  and 块男
 							</p>
 							
-							<h5 class="happy-client">JB Jeniffer</h5>
-							<span class="client-info">Developer at TTF Corp.</span>
+							<h5 class="happy-client">小彭子</h5>
+							<span class="client-info">你的二号男神</span>
 						</div>
 						<!-- Single Testimonial Ends -->
 						
 						<!-- Single Testimonial Starts -->
 						<div class="testimonial">
 							<p class="comment">
-								Consectetur adipiscing elit. Nullam eu sem ante. Nullam quis risus eu 
-								purus commodo dignissim. Donec iaculis ac ex vel posuere. Sed posuere, elit vitae mattis condimentum, 
-								quam urna fringilla magna
+								向男神致敬，未来是属于我的，欧耶<br>
+								能与男神同台，我很激动<br>
+								首先感谢女神花姐~~
 							</p>
 							
-							<h5 class="happy-client">Chan Jhin</h5>
-							<span class="client-info">CEO of MutiNaTakio.</span>
+							<h5 class="happy-client">小涛子</h5>
+							<span class="client-info">三号替补</span>
 						</div>
 						<!-- Single Testimonial Ends -->
 					</div>
 					<div id="bx-pager" class="client-photos">
 						<a data-slide-index="0" href="" class="photo-hold">
 							<span class="photo-bg">
-								<img src="images/client_1.jpg" alt="" /> <!-- Client photo 1 -->
+								<img src="images/hxm.jpg" alt="" /> <!-- Client photo 1 -->
 							</span>
 						</a>
 						<a data-slide-index="1" href="" class="photo-hold">
 							<span class="photo-bg">
-								<img src="images/client_2.jpg" alt="" /> <!-- Client photo 2 -->
+								<img src="images/pyy3.jpg" alt="" /> <!-- Client photo 2 -->
 							</span>
 						</a>
 						<a data-slide-index="2" href="" class="photo-hold">
 							<span class="photo-bg">
-								<img src="images/client_3.jpg" alt="" /> <!-- Client photo 3 -->
+								<img src="images/zlt2.jpg" alt="" /> <!-- Client photo 3 -->
 							</span>
 						</a>
 					</div>
@@ -654,45 +647,37 @@
 					<h3>Plans & pricing</h3>
 				</div>
 				<!-- Single Price Starts -->
-				<div class="col-md-3 col-sm-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500">
+				<div class="col-md-3 col-sm-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="500" style="margin-left:300px;">
 					<div class="single-pricing">
 					
 						<div class="pricing-head">
-							<h4 class="pricing-heading color-scheme">Basic</h4>
+							<h4 class="pricing-heading color-scheme">Now</h4>
 							<div class="price">
 								<h3>
-									<span class="dollar">$</span>
-									40
+									<span class="dollar">¥</span>
+									6000
 									<span class="month">/month</span>
 								</h3>
 							</div>
 						</div>
 						
 						<ul class="package-features">
-							<li><span class="color-scheme fa fa-check"></span>Unlimited Downloads</li>
-							<li><span class="color-scheme fa fa-check"></span>Unlimited Uploads</li>
-							<li><span class="color-scheme fa fa-check"></span>Unlimited Email Accounts</li>
-							<li><span class="color-scheme fa fa-check"></span>Email Forwards</li>
-							<li><span class="color-scheme fa fa-close"></span>Cloud Storage</li>
-							<li><span class="color-scheme fa fa-close"></span>Voice call</li>
-							<li><span class="color-scheme fa fa-close"></span>Screen Share</li>
+							<li><span class="color-scheme fa fa-close"></span>编程知识-少</li>
+							<li><span class="color-scheme fa fa-close"></span>开发技术-渣</li>
+							<li><span class="color-scheme fa fa-close"></span>薪资水平-低</li>
+							<li><span class="color-scheme fa fa-close"></span>咱的小窝-无</li>
+							<li><span class="color-scheme fa fa-close"></span>咱的车子-无</li>
+							<li><span class="color-scheme fa fa-check"></span>是否努力-是</li>
 						</ul>
-						<div class="sign-up">
-							<a href="#" class="fancy-button button-line btn-col zoom">
-								Sign up
-								<span class="icon">
-									<i class="fa fa-thumbs-o-up"></i>
-								</span>
-							</a>
-						</div>
 					</div>
 				</div>
 				<!-- Single Price Ends -->
 				
 				
 				<!-- Single Price Starts -->
+				<!-- 
 				<div class="col-md-3 col-sm-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="700">
-					<div class="single-pricing best-pricing"> <!-- this is best-pricing -->
+					<div class="single-pricing best-pricing">
 					
 						<div class="pricing-head">
 							<h4 class="pricing-heading color-scheme">Advance</h4>
@@ -724,9 +709,11 @@
 						</div>
 					</div>
 				</div>
+				 -->
 				<!-- Single Price Ends -->
 				
 				<!-- Single Price Starts -->
+				<!--  
 				<div class="col-md-3 col-sm-6 single-pricing-wrap center animated" data-animation="bounceInLeft" data-animation-delay="900">
 					<div class="single-pricing">
 					
@@ -760,6 +747,7 @@
 						</div>
 					</div>
 				</div>
+				-->
 				<!-- Single Price Ends -->
 				
 				<!-- Single Price Starts -->
@@ -767,33 +755,24 @@
 					<div class="single-pricing">
 					
 						<div class="pricing-head">
-							<h4 class="pricing-heading color-scheme">Ultra</h4>
+							<h4 class="pricing-heading color-scheme">Next</h4>
 							<div class="price">
 								<h3>
-									<span class="dollar">$</span>
-									100
+									<span class="dollar">¥</span>
+									10K
 									<span class="month">/month</span>
 								</h3>
 							</div>
 						</div>
 						
 						<ul class="package-features">
-							<li><span class="color-scheme fa fa-check"></span>Unlimited Downloads</li>
-							<li><span class="color-scheme fa fa-check"></span>Unlimited Uploads</li>
-							<li><span class="color-scheme fa fa-check"></span>Unlimited Email Accounts</li>
-							<li><span class="color-scheme fa fa-check"></span>Email Forwards</li>
-							<li><span class="color-scheme fa fa-check"></span>Cloud Storage</li>
-							<li><span class="color-scheme fa fa-check"></span>Voice call</li>
-							<li><span class="color-scheme fa fa-check"></span>Screen Share</li>
+							<li><span class="color-scheme fa fa-check"></span>多读书</li>
+							<li><span class="color-scheme fa fa-check"></span>多看报</li>
+							<li><span class="color-scheme fa fa-check"></span>多运动</li>
+							<li><span class="color-scheme fa fa-check"></span>多陪你</li>
+							<li><span class="color-scheme fa fa-close"></span>去旅游</li>
+							<li><span class="color-scheme fa fa-check"></span>努力挣钱</li>
 						</ul>
-						<div class="sign-up">
-							<a href="#" class="fancy-button button-line btn-col zoom">
-								Sign up
-								<span class="icon">
-									<i class="fa fa-thumbs-o-up"></i>
-								</span>
-							</a>
-						</div>
 					</div>
 				</div>
 				<!-- Single Price Ends -->
@@ -804,6 +783,7 @@
 	<!--=== Pricing section Ends ===-->
 	
 	<!--=== Subscribe section Starts ===-->
+	<!--  
 	<section id="section-subscribe" class="subscribe-wrap">
 		<div class="section-overlay"></div>
 		<div class="container subscribe center">
@@ -827,6 +807,7 @@
 			</div>
 		</div>
 	</section>
+	-->
 	<!--=== Subscribe section Ends ===-->
 	
 	
@@ -836,24 +817,16 @@
 			<div class="row">
 				<div class="col-lg-12">
 					<div class="col-md-10 col-md-offset-1 center section-title">
-						<h3>Download app</h3>
+						<h3>老婆</h3>
 					</div>
 					<div class="download-buttons clearfix"> <!-- Download Buttons -->
-						<a class="fancy-button button-line no-text btn-col large zoom" href="#" title="Download from App store">
-							<span class="icon">
-							<i class="fa fa-apple"></i>
-							</span>
-						</a>
-						<a class="fancy-button button-line btn-col no-text large zoom" href="#" title="Download from App store">
-							<span class="icon">
-							<i class="fa fa-android"></i>
-							</span>
-						</a>
-						<a class="fancy-button button-line btn-col no-text large zoom" href="#" title="Download from App store">
-							<span class="icon">
-							<i class="fa fa-windows"></i>
-							</span>
-						</a>
+						<p>
+						我想对你说：<br>
+						阳光总在风雨后<br>
+						只有经历最痛苦的坚持，才配得上拥有最长久的幸福<br>
+						现在觉得考试是一个坎，迈过去，你会轻叹：哦，那不过如此。加油！！！<br>
+						我爱你，献吻~~~~
+						</p>
 					</div>
 				</div>
 			</div>
@@ -863,6 +836,7 @@
 	
 	
 	<!--=== Contact section Starts ===-->
+	<!-- 
 	<section id="section-contact" class="contact-wrap">
 	<div class="section-overlay"></div>
 		<div class="container contact center animated" data-animation="flipInY" data-animation-delay="1000">
@@ -897,18 +871,19 @@
 			</div>
 		</div>
 	</section>
+	 -->
 	<!--=== Contact section Ends ===-->
 	
-	<!--=== Footer section Starts ===-->
+	<!--=== Footer section Starts ===--><!-- 
 	<div id="section-footer" class="footer-wrap">
 		<div class="container footer center">
 			<div class="row">
 				<div class="col-lg-12">
-					<h4 class="footer-title"><!-- Footer Title -->
+					<h4 class="footer-title">
 						<a class="site-name" href="#"><span>E</span>gret</a>
 					</h4>
 					
-					<!-- Social Links -->
+					
 					<div class="social-icons">
 						<ul>
 							<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
@@ -924,9 +899,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	<!--=== Footer section Ends ===-->
-	
+	 
 <!--==== Js files ====-->
 <!--==== Essential files ====-->
 <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
